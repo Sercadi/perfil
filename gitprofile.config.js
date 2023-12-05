@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'Sercadi', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,26 +11,26 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'sergio-castro-díaz',
+    twitter: 'sercadi_smash',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'sercadi',
+    dev: 'sercadi',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'sercadi.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'sergiocastrodiaz2016@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1ZoHceFDpJFV40myuvuHCXxHjRdADVZ0N/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -38,30 +38,30 @@ const config = {
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Python',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'TypeScript',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Markdown',
+    'Kubernetes',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'ABBAS TELECOM SL',
+      position: 'Administrador de Sistemas',
+      from: 'Marzo 2022',
+      to: 'Junio 2022',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'I.E.S Fidiana',
+      position: 'Desarrollador de Aplicaciones Web',
+      from: 'Marzo 2020',
+      to: 'Junio 2020',
+      companyLink: '',
     },
   ],
   /* certifications: [
@@ -74,16 +74,22 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'I.E.S Trassierra',
+      degree: 'CE Entornos de Ciberseguridad de la Información',
+      from: '2023',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'CES Lope de Vega',
+      degree: 'Ciclo Superior - Administrador de Sistemas Operativos en Red',
+      from: '2020',
+      to: '2022',
+    },
+      {
+      institution: 'I.E.S Fidiana',
+      degree: 'Ciclo Medio - Sistemas Microinformáticos y Redes',
+      from: '2017',
+      to: '2020',
     },
   ],
 
@@ -180,10 +186,10 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/sercadi/perfil"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GithubProfile</a> and ❤️`,
 };
 
 export default config;
